@@ -3,7 +3,8 @@
 :root {
     --primary-color: #12111A;
     --secondary-color: #FAFAFA;
-    --jacqueminotRed-color: #700000;
+    --heading-color: #700000;
+    --red-color: #700000;
     --classtitle-color: #700000;
     --sashGold-color: #CB9E00;
     --lightGray-color: #dddcdc;
@@ -12,9 +13,8 @@
 .dark-theme {
     --primary-color: #FAFAFA;
     --secondary-color: #12111A;
-    --jacqueminotRed-color: #700000;
+    --heading-color: #CB9E00;
     --classtitle-color: #CB9E00;
-    --sashGold-color: #CB9E00;
     --lightGray-color: #dddcdc;
 }
 
@@ -37,6 +37,17 @@ main {
     padding: 0 1rem 0;
 }
 
+/* TODO FRIDAY MEETING: Update grids w/ flex-wrapping */
+/* {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    height: auto;
+    margin: auto;
+    width: 80%;
+} */
+
 .boardGrids {
     display: grid;
     justify-content: center;
@@ -44,7 +55,6 @@ main {
     grid-auto-rows: minmax(100px, auto);
     height: auto;
     margin: auto;
-    
 }
 
 .boardGrids div {
@@ -76,17 +86,22 @@ main {
 }
 
 /* = Nested Grid Formatting = */
-.Eboard-nested-1 {
+
+/* TODO FRIDAY MEETING: Update grids w/ flex-wrapping */
+/* {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+} */
+
+.Eboard-nested {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
 }
 
-.Eboard-nested-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
-}
 .Aboard-nested {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -137,7 +152,7 @@ main {
     align-items: center;
 	text-align: center;
     font-size: 65px;
-    color: var(--jacqueminotRed-color);
+    color: var(--heading-color);
 }
 
 .EboardTitling {
@@ -145,7 +160,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    color: var(--sashGold-color);
+    color: var(--heading-color);
 }
 
 .AboardTitling {
@@ -153,7 +168,7 @@ main {
     justify-content: center;
     align-items: center;
     font-size: 50px;
-    color: var(--sashGold-color);
+    color: var(--heading-color);
 }
 
 .memberTitling {
@@ -162,7 +177,7 @@ main {
     align-items: center;
 	text-align: center;
     font-size: 45px;
-    color: var(--sashGold-color);
+    color: var(--heading-color);
 }
 
 .class-title {
