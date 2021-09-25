@@ -14,16 +14,12 @@ This is the official repository for Phi Epsilon's current devlopment code for us
 
 > This project is continually developing as a website, meeting place, and tool for our chapter.
 
----
-
 #### Technologies
 
 - HTML5 / CSS3
 - JavaScript
 - PHP
 - Visual Studio Code
-
----
 
 ## Chapter Info
 
