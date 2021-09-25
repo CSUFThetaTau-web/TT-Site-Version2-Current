@@ -2,7 +2,7 @@
 Based at California State University, Fullerton
 
 ## Live @ https://www.csufthetatau.com/
-
+<br>
 <img src="images/Website SCRNSHT.PNG">
 
 ---
