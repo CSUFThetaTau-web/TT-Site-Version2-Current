@@ -3,6 +3,10 @@ Based at California State University, Fullerton
 
 ---
 
+<img src="src/assets/images/PortfolioSite.png">
+
+---
+
 ## Description
 
 This is the official repository for Phi Epsilon's current devlopment code for use in the construction of the Phi Epsilon Webiste. The Phi Epsilon Webmaster & web staff use this repo to access, pull/push, update, and monitor all developmnent code before it lauches to the live site.
