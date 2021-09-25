@@ -1,8 +1,6 @@
 # Official repository for Theta Tau Phi Epsilon's Website Devlopment
 Based at California State University, Fullerton
 
----
-
 <img src="images/Website SCRNSHT.PNG">
 
 ---
