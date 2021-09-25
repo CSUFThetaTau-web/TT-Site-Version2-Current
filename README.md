@@ -3,7 +3,7 @@ Based at California State University, Fullerton
 
 ---
 
-<img src="src/assets/images/PortfolioSite.png">
+<img src="images/Website SCRNSHT.PNG">
 
 ---
 
