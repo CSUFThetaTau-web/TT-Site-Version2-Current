@@ -37,24 +37,14 @@ main {
     padding: 0 1rem 0;
 }
 
-/* TODO FRIDAY MEETING: Update grids w/ flex-wrapping */
-/* {
+.boardGrids {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     height: auto;
     margin: auto;
-    width: 80%;
-} */
-
-.boardGrids {
-    display: grid;
-    justify-content: center;
-    grid-gap: 1em;
-    grid-auto-rows: minmax(100px, auto);
-    height: auto;
-    margin: auto;
+    width: 90%;
 }
 
 .boardGrids div {
@@ -86,26 +76,28 @@ main {
 }
 
 /* = Nested Grid Formatting = */
-
-/* TODO FRIDAY MEETING: Update grids w/ flex-wrapping */
-/* {
+.Eboard-nested {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
     flex-direction: row;
-} */
+}
 
-.Eboard-nested {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
+.Eboard-nested div {
+    width: 275px;
 }
 
 .Aboard-nested {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.Aboard-nested div {
+    width: 275px;
 }
 
 .members-nested {
@@ -221,9 +213,10 @@ main {
 /* responsive screen sizing */
 @media screen and (min-width: 1920px) {
     .boardGrids {
-        width: 55%;
-        min-width: 55%;
+        width: 60%;
+        min-width: 60%;
     }
+}
 
     .memberGrids {
         width: 70%;
