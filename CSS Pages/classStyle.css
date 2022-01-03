@@ -1,3 +1,10 @@
+/* 
+    @file: classStyle.css
+    @version: 4.0 Approved
+    @Updated: 01/2022
+    @Contributor(s): Spencer DeMera (Webmaster 2021), Carina Adrianzen (Webmaster Shadow Fall 2021)
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); /* Poppins Font */
 
 :root {
@@ -83,7 +90,7 @@ main {
 /* Back button */
 
 /* Class Image */
-.foundingClassImg {
+.classImg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +152,6 @@ main {
     border-radius: 50%;
     width: 170px;
     height: 170px;
-    background-color: var(--lightGray-color);
 }
 
 .content {
@@ -155,7 +161,7 @@ main {
 /* Members Data */
 
 /* ===== IDs ===== */
-#foundingImg img {
+#classImg img {
     border-radius: 25px;
     width: 600px;
     height: 400px;

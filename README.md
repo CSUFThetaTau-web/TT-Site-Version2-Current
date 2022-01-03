@@ -1,4 +1,4 @@
-# Official repository for Theta Tau Phi Epsilon's Website Devlopment
+# Official repository for Theta Tau Phi Epsilon's Website Development
 Based at California State University, Fullerton
 
 ## Live @ https://www.csufthetatau.com/
